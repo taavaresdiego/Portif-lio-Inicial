@@ -1,0 +1,16 @@
+.nav-bar {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.nav-bar a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+}
