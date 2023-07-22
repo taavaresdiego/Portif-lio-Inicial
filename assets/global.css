@@ -1,8 +1,13 @@
+:root {
+  --cor-primaria: #3f4e4f;
+  --cor-secundaria: #a27b5c;
+}
 body {
   font-family: "Fira Sans", arial, sans-serif;
   margin: 0px;
-  color: #141414;
+  color: var(--cor-secundaria);
   margin-bottom: 1000px;
+  background: black;
 }
 
 h1,

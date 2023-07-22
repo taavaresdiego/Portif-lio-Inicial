@@ -1,3 +1,9 @@
+root {
+  --cor-primaria: #3f3f3f;
+  --cor-secundaria: #a27b5c;
+  --cor-tres: #dcd7c9;
+}
+
 .introducao {
   max-width: 1200px;
   padding: 40px 20px;
@@ -12,6 +18,7 @@
   font-size: 4.5rem;
   line-height: 1.125;
   margin-bottom: 30px;
+  color: #dcd7c9;
 }
 
 .introducao h1::before {
@@ -19,7 +26,7 @@
   display: block;
   width: 130px;
   height: 10px;
-  background: #f0a04b;
+  background: var(--cor-primaria);
   margin-bottom: 20px;
 }
 .introducao h1::after {
@@ -27,7 +34,7 @@
   display: block;
   width: 130px;
   height: 10px;
-  background: #6096b4;
+  background: var(--cor-primaria);
   margin-top: 20px;
 }
 
