@@ -11,6 +11,7 @@ root {
   justify-content: space-between;
   align-items: center;
   background: var(--cor-primaria);
+  opacity: 0.9;
 }
 
 .header-menu {
